@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Image Slider</title>
+    <!-- <script src="javascript.js"></script> -->
+</head>
+<body>
+    
+
+    <div class="slider">
+        
+        <div class="slides w3-animate-left">
+
+            <div class="index">1/5</div>
+            <img src="./img/img1.jpeg" alt="scene1" width="100%">
+            <div class="caption">This is beautiful</div>
+
+        </div>
+
+
+        <div class="slides w3-animate-left">
+
+            <div class="index ">2/5</div>
+            <img src="./img/img2.jpeg" alt="scene2" width="100%">
+            <div class="caption">This is beautiful</div>
+
+        </div>
+
+        <div class="slides w3-animate-left">
+
+            <div class="index">3/5</div>
+            <img src="./img/img3.jpeg" alt="scene3" width="100%">
+            <div class="caption">This is beautiful</div>
+
+        </div>
+
+        <div class="slides w3-animate-left">
+
+            <div class="index">4/5</div>
+            <img src="./img/img4.jpeg" alt="scene4" width="100%">
+            <div class="caption">This is beautiful</div>
+
+        </div>
+
+
+        <a class="back" onclick="plusSlides(-1)" > &#10094; </a>
+        <a class="next" onclick="plusSlides(1)" > &#10095; </a>
+
+        
+
+    </div>
+
+    <div>
+        <span class="circle" onclick="currentSlide(1)"></span>
+        <span class="circle" onclick="currentSlide(2)"></span>
+        <span class="circle" onclick="currentSlide(3)"></span>
+        <span class="circle" onclick="currentSlide(4)"></span>
+    </div>
+
+
+    
+</body>
+</html>
