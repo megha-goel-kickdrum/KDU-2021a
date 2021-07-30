@@ -1,0 +1,32 @@
+
+
+#outer {
+    background-color: rgb(62,118,144);
+    width: 600px;height: 200px;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+}
+
+#clock {
+
+background-color: rgb(52,101,122);  
+display: block;
+border-style: groove;
+vertical-align: middle;
+border-radius: 25px;
+margin-top: 25px;
+border-color: white;
+width: 500px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 66px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
