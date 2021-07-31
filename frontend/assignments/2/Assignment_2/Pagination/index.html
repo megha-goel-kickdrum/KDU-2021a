@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>List of Employees in Company</h1>
+    <div class="records" id="page1" style="display: none;">
+        <ul>
+            <li>Ganesh Ramamoorthy</li>
+            <li>Mayank Garg</li>
+            <li>Nainish Dala</li>
+            
+           
+        </ul>
+    </div>
+
+    <div class="records" id="page2" style="display: none;" >
+        <ul>
+            
+            <li>Megha</li>
+            <li>Priya</li>
+            <li>Jack</li>
+           
+        </ul>
+    </div>
+
+
+    <div class="records" id="page3" style="display: none;" >
+        <ul>
+            
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+           
+        </ul>
+    </div>
+
+    <div class="records" id="page4" style="display: none;" >
+        <ul>
+            
+            <li>D</li>
+            <li>E</li>
+            <li>F</li>
+           
+        </ul>
+    </div>
+
+    <div class="records" id="page5" style="display: none;" >
+        <ul>
+            
+            <li>G</li>
+            <li>H</li>
+            <li>I</li>
+           
+        </ul>
+    </div>
+
+    <div class="records" id="page6" style="display: none;" >
+        <ul>
+            
+            <li>J</li>
+            <li>K</li>
+            <li>L</li>
+           
+        </ul>
+    </div>
+
+    <div class="pagination">
+
+        
+        <a href="javascript: onClick= prevPage();">Prev</a>
+        <a href="javascript: onClick= showPage('1');">1</a>
+        <a href="javascript: onClick= showPage('2');">2</a>
+        <a href="javascript: onClick= showPage('3');">3</a>
+        <a href="javascript: onClick= showPage('4');">4</a>
+        <a href="javascript: onClick= showPage('5');">5</a>
+        <a href="javascript: onClick= showPage('6');">6</a>
+        <a href="javascript: onClick= nextPage();">Next</a>
+
+        
+    </div>
+
+    <input type="text" id="search" onkeyup="searchName()" placeholder="Search for Names...">
+</body>
+</html>
