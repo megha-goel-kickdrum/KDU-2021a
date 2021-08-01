@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <title>Image Slider</title>
-    <!-- <script src="javascript.js"></script> -->
+    <title>My Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
 
-    <div class="slider">
+    <div class="slide-container">
         
         <div class="slides w3-animate-left">
 
             <div class="index">1/5</div>
-            <img src="./img/img1.jpeg" alt="scene1" width="100%">
-            <div class="caption">This is beautiful</div>
+            <img src="./img/img1.jpg" alt="scene1"  >
+            <div class="caption">Caption 1</div>
 
         </div>
 
@@ -23,41 +23,51 @@
         <div class="slides w3-animate-left">
 
             <div class="index ">2/5</div>
-            <img src="./img/img2.jpeg" alt="scene2" width="100%">
-            <div class="caption">This is beautiful</div>
+            <img src="./img/img2.jpg" alt="scene2" height="500px" >
+            <div class="caption">Caption 2</div>
 
         </div>
 
         <div class="slides w3-animate-left">
 
             <div class="index">3/5</div>
-            <img src="./img/img3.jpeg" alt="scene3" width="100%">
-            <div class="caption">This is beautiful</div>
+            <img src="./img/img3.jpg" alt="scene3" height="500px" >
+            <div class="caption">Caption 3</div>
 
         </div>
 
         <div class="slides w3-animate-left">
 
             <div class="index">4/5</div>
-            <img src="./img/img4.jpeg" alt="scene4" width="100%">
-            <div class="caption">This is beautiful</div>
+            <img src="./img/img4.jpg" alt="scene4" height="500px" >
+            <div class="caption">Caption 4</div>
 
         </div>
 
 
-        <a class="back" onclick="plusSlides(-1)" > &#10094; </a>
-        <a class="next" onclick="plusSlides(1)" > &#10095; </a>
+        <div class="slides w3-animate-left">
 
-        
+            <div class="index">5/5</div>
+            <img src="./img/img5.jpg" alt="scene5" height="500px">
+            <div class="caption">Caption 5</div>
+
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
 
     </div>
 
+    <script src="javascript.js"></script>
+
+<!-- 
     <div>
         <span class="circle" onclick="currentSlide(1)"></span>
         <span class="circle" onclick="currentSlide(2)"></span>
         <span class="circle" onclick="currentSlide(3)"></span>
         <span class="circle" onclick="currentSlide(4)"></span>
-    </div>
+        <span class="circle" onclick="currentSlide(5)"></span>
+    </div> -->
 
 
     
