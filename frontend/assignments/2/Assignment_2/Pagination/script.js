@@ -17,7 +17,7 @@ function showPage(id)
 
 
 
-function prevPage()
+function prevPage(num)
 {
    var totalNumberOfpages = 6;
 

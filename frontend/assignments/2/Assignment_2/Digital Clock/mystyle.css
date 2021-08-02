@@ -1,11 +1,14 @@
-
+body {
+  background: black;
+}
 
 #outer {
     background-color: rgb(62,118,144);
     width: 600px;height: 200px;
-    position: relative;
+    position: absolute;
     display: block;
     text-align: center;
+    left: 600px;
     margin: auto;
     margin-top: 300px;
 }
@@ -15,7 +18,7 @@
 background-color: rgb(52,101,122);  
 display: block;
 border-style: groove;
-vertical-align: middle;
+position: relative;
 border-radius: 25px;
 margin-top: 25px;
 border-color: white;
@@ -29,4 +32,5 @@ width: 500px;
   padding-right: 10px;
   padding-bottom: 40px;
   margin: 0 auto;
+  top: 20px;
 }
