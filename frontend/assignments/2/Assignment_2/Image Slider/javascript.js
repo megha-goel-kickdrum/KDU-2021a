@@ -48,3 +48,48 @@ function dotEvent(i) {
 
 
 
+
+
+
+
+
+
+
+// let img = document.querySelector('img');
+// let btn1 = document.querySelector('#btn1');
+// let btn2 = document.querySelector('#btn2');
+// let btn3 = document.querySelector('#btn3');
+// let btn4 = document.querySelector('#btn4');
+// let btn5 = document.querySelector('#btn5');
+
+
+// btn1.addEventListener('click', Addimage());
+
+// btn2.addEventListener('click', () => {
+//   img.src = './img/img2.jpg';
+// })
+
+// btn3.addEventListener('click', () => {
+//   img.src = './img/img3.jpg';
+// })
+
+// btn4.addEventListener('click', () => {
+//   img.src = './img/img4.jpg';
+// })
+
+// btn5.addEventListener('click', () => {
+//   img.src = './img/img5.jpg';
+// })
+
+
+
+
+//Dynamic
+
+  // var image = document.createElement('img');
+  // image.src = 'img/img1.jpg';
+  
+  // document.getElementById('slide-container').appendChild(image);
+
+
+
