@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
-    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <!-- Now to connect the server and client: - -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>    
+
+    <!-- //defer is used so that script will run after the DOM loads -->
+
     <script defer src="client.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <img src="" alt="" class="logo">
+        <h1>WELCOME TO KDU CHATROOM</h1>
     </nav>
     <div class="container">
-        <div class="message right">Megha: Hey What's up dude?</div>
+        <!-- <div class="message right">Megha: Hey What's up dude?</div>
 
-        <div class="message left">Anushka: I'm good!</div>
+        <div class="message left">Anushka: I'm good!</div> -->
     </div>
 
     <div class="send">
