@@ -1,3 +1,7 @@
+.flexbox{
+    display: flex;
+}
+
 .container{
     max-width: 700px;
     background-color: rgb(175, 128, 187);
@@ -6,7 +10,7 @@
     height: 60vh;
     padding: 33px;
     overflow: auto;
-    margin-bottom: 23px;
+    /* margin-bottom: 23px; */
     box-shadow: 5px 5px 5px 5px rgb(124, 108, 196);  
 
 }
@@ -21,11 +25,36 @@ h1{
     color: white;
 }
 
+.userlist{
+
+    margin-top: 25vh;
+    float: left 15%;
+    /* border: 2px solid black; */
+    width: 20vw;
+    height: 20vh;
+    color: black;
+    font-size: 22px;
+    background-color: burlywood;
+    box-shadow: 5px 5px 5px 5px rgb(124, 108, 196);  
+    padding-left: 30px;
+    padding-top: 2px;
+
+
+}
+
+.messageBox{
+
+    float: right 75%;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
 .message {
     background-color: rgb(95, 25, 175);
     width: 24%;
     padding: 10px;
-    margin: 17px 12px;
+    /* margin: 17px 12px; */
     color: #fff;
     box-shadow:2px 2px 1px 1px rgb(127, 91, 148);  
 
@@ -40,6 +69,7 @@ h1{
 
 .right {
     float: right;
+    
     clear: both;
 }
 

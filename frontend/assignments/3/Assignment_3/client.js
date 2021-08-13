@@ -1,3 +1,7 @@
+// const {users} = require('nodeServer/index.js');
+
+
+
 const socket = io('http://localhost:8000');     // it is working on port:8000
 
 const form = document.getElementById('send-container');
@@ -22,6 +26,7 @@ const append = (message, position)=>{    //position is the left or right positio
 
 }
 
+
 form.addEventListener('submit', (e)=>{           // if the form is submitted a function runs that emits the send event
     e.preventDefault();
     const message = messageInput.value ;
@@ -32,6 +37,8 @@ form.addEventListener('submit', (e)=>{           // if the form is submitted a f
 
 const name  = prompt("Enter your name to join");
 socket.emit('new-user-joined', name); // here we emit an event named new-user-joined
+
+
 
 socket.on('user-joined', name =>{       // here we listen to the event user-joined which was emitted and
     append(`${name} joined the chat`, 'right')  // run a function which appends in the message container the name of user who joined the chat
@@ -44,3 +51,25 @@ socket.on('receive', data =>{         // whenever we listen to a receive event ,
 socket.on('left', name =>{
     append(`${name} left the chat`, 'left')
 })
+
+
+
+// To display the active users in the chat room
+
+// var userlist = document.getElementById('userlist');
+// const ul = document.createElement('ul');
+
+// ul.setAttribute('id', 'list');
+
+// for(i=0; i<= users.length -1 ; i++)
+// {
+//     const li = document.createElement('li');
+
+//     li.innerHTML = users[i];
+//     ul.appendChild(li);
+// }
+
+// userlist.appendChild(ul);
+
+
+

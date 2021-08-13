@@ -25,3 +25,5 @@ io.on('connection', socket =>{
         delete users[socket.id]; // to delete the user who left ,from our users list
     });
 })
+
+// module.exports = {users};
