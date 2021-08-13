@@ -1,6 +1,5 @@
 // Node server which will handle socket io connections
 
-// const io = require('socket.io')(8000);
 const io = require('socket.io')(8000, {
     cors: {
       origin: '*',
@@ -26,4 +25,4 @@ io.on('connection', socket =>{
     });
 })
 
-// module.exports = {users};
+module.exports = {users};

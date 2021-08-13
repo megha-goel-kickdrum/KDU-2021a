@@ -1,4 +1,4 @@
-// const {users} = require('nodeServer/index.js');
+const {users} = require('nodeServer/index.js');
 
 
 
@@ -56,20 +56,20 @@ socket.on('left', name =>{
 
 // To display the active users in the chat room
 
-// var userlist = document.getElementById('userlist');
-// const ul = document.createElement('ul');
+var userlist = document.getElementById('userlist');
+const ul = document.createElement('ul');
 
-// ul.setAttribute('id', 'list');
+ul.setAttribute('id', 'list');
 
-// for(i=0; i<= users.length -1 ; i++)
-// {
-//     const li = document.createElement('li');
+for(i=0; i<= users.length -1 ; i++)
+{
+    const li = document.createElement('li');
 
-//     li.innerHTML = users[i];
-//     ul.appendChild(li);
-// }
+    li.innerHTML = users[i];
+    ul.appendChild(li);
+}
 
-// userlist.appendChild(ul);
+userlist.appendChild(ul);
 
 
 
