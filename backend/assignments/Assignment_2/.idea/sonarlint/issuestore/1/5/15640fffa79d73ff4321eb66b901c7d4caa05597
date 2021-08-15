@@ -1,0 +1,16 @@
+
+
+java:S1319"uThe type of the "locationCache" object should be an interface such as "Map" rather than the implementation "HashMap".(ÃèÆ§ÿÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(¶›Œ!
+8
+java:S2386"Make this member "protected".(ÃèÆ§ÿÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÃèÆ§ÿÿÿÿÿ
+K
+java:S2209"5Change this instance-reference to a static reference.(İŒœù
+K
+java:S2209"5Change this instance-reference to a static reference.(šÕŸ»
+K
+java:S2209"5Change this instance-reference to a static reference.(šÕŸ»
+K
+java:S2209"5Change this instance-reference to a static reference.(ø¾¨ı

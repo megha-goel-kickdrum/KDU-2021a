@@ -1,0 +1,29 @@
+
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ÙÛ©¶øÿÿÿÿ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‹Â¹¹ıÿÿÿÿ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(—Èâ¨ùÿÿÿÿ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ã…€æùÿÿÿÿ
+F
+java:S1128
+"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ
+E
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø
+Q	java:S125"<This block of commented-out lines of code should be removed.(‹ô”š
+]	java:S125"<This block of commented-out lines of code should be removed.(ÅŒô•úÿÿÿÿ8û®¼¦³/
+E
+java:S6212%"/Declare this local variable with "var" instead.(ı´Á¢
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ù£àŠıÿÿÿÿ8¦¯¼¦³/
+X	java:S125J"<This block of commented-out lines of code should be removed.(÷Áâ¡8§¯¼¦³/
+L
+java:S6212N"/Declare this local variable with "var" instead.(»ÓÑß8§¯¼¦³/
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(±’öè8³¯¼¦³/
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8¸¯¼¦³/
+U	java:S106h"9Replace this use of System.out or System.err by a logger.(¦Î°8¹¯¼¦³/
+]	java:S125["<This block of commented-out lines of code should be removed.(ùâú¡ÿÿÿÿÿ8¿¯¼¦³/
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8À¯¼¦³/
+E
+java:S1068"(Remove this unused "lock" private field.(éë¢8Â¯¼¦³/

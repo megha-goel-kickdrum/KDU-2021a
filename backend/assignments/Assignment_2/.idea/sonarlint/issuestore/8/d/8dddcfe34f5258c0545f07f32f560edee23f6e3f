@@ -1,0 +1,27 @@
+
+b
+java:S2095#"GUse try-with-resources or close this "Statement" in a "finally" clause.(­µøãúÿÿÿÿ
+j
+java:S20953"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ª€şøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ñÁŸŞøÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(±¦·½
+E
+java:S6212"/Declare this local variable with "var" instead.(õ‰ô£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶¢µÿÿÿÿÿ
+E
+java:S6212""/Declare this local variable with "var" instead.(ËÁ§Ü
+J
+java:S6212&"/Declare this local variable with "var" instead.(½”’üÿÿÿÿ
+J
+java:S6212'"/Declare this local variable with "var" instead.(³ó»åøÿÿÿÿ
+J
+java:S6212("/Declare this local variable with "var" instead.(‡¯Ñüÿÿÿÿ
+K
+java:S1751*"5Remove this "break" statement or make it conditional.(›ûä·
+J
+java:S62121"/Declare this local variable with "var" instead.(ƒ¿Ğûÿÿÿÿ
+E
+java:S62122"/Declare this local variable with "var" instead.(…ëâ´
+P	java:S125A"<This block of commented-out lines of code should be removed.(¼« 2
